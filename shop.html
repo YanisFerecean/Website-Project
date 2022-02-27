@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="ScriptJ.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-xl navbar-light bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src ="6.png" width="60" class="rounded img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarBasic">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="weather.html" tabindex="-1" aria-disabled="true">Weather</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">News</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true">Sign Up</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="shop.html" tabindex="-1" aria-disabled="true">Shop</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="cart.html" tabindex="-1" aria-disabled="true">your Cart</a>
+                    <div class="btn btn-success btn btn-xs"  aria-disabled="true" id="cartCount"></div>
+                    <p id="priceAll"></p>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary btn-outline-info" type="submit">Search</button>
+
+            </form>
+        </div>
+    </div>
+
+</nav>
+    <div class="card">
+        <div class="card-header">
+            <h2>Samsung S21+ (16GB RAM, 256GB SSD)</h2>
+        </div>
+        <div class="card-body">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnl.letsgodigital.org%2Fuploads%2F2020%2F12%2Fgalaxy-s21-5g.jpg&f=1&nofb=1" class="home-images">
+            <div>
+                <h3>We Focus on your life</h3>
+                <p>Damit du stets für das perfekte Foto bereit bist. Hier kommt das Galaxy S21 5G und das S21+ 5G. Konzipiert, um neue Maßstäbe in puncto Videos und Fotografie zu setzen – mit einer mehr als kinoreifen 8K-Auflösung, die es dir ermöglicht, direkt im Video epische Fotos zu machen. Es hat einfach alles und ist in zwei Größen erhältlich: 64 MP, unser schnellster Chipsatz und ein riesiger Ganztags-Akku.4 Die Smartphone-Technologie ist soeben in eine neue Ära eingetreten.</p>
+                <p>Price: </p>
+                <p id="price1">829</p>
+                <p class="btn btn-primary btn-xs" id="add">Add to Shoppingcart</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

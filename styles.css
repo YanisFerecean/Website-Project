@@ -1,0 +1,20 @@
+.text-sets{
+    font-size: xx-large;
+    font-weight:10;
+    font-family: "Dubai Light";
+}
+.home-images
+{
+    width: 14.5em;
+    height: 8.1em;
+    height: fit-content;
+}
+.boxes
+{
+    margin: 1em;
+    margin-right:9em;
+}
+#list
+{
+    list-style-type: none;
+}
